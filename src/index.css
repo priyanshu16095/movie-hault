@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+*, 
+::before,
+::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Slab", serif;
+  line-height: calc(1em + 0.5rem);
+}
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+input {
+  width: 100%;
+}
+button, input {
+  padding: 0.7rem 1rem;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.section {
+  margin-top: 5rem;
+}
+
+/* xs */
+@media (min-width: 475px) {
+  .container {
+    max-width: 475px;
+  }
+}
+
+/* sm */
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+/* md */
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+  .section {
+    margin-top: 10rem;
+  }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
+.center-both {
+  display: grid;
+  min-height: 80dvh;
+  place-content: center;
+}
+.flex {
+  display: flex;
+}
+.flex-h {
+  display: flex;
+  align-items: center;
+}
+.flex-v {
+  display: flex;
+  flex-direction: column;
+}
+.flex-a {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.flex-b {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.flex-s {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.gap {
+  gap: 1rem;
+}
+.gap-xs {
+  gap: 0.5rem;
+}
+.gap-s {
+  gap: 0.5rem;
+}
+.gap-l {
+  gap: 1.5rem;
+}
+
+.heading {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.font-s {
+  font-size: 1rem;
+}
+.info {
+  font-size: 1rem;
+  opacity: 0.6;
+}
+.link {
+  opacity: 0.7;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.link:hover {
+  opacity: 1;
+}
+
+.btn {
+  background-color: #004AAD;
+  color: white;
+  border: 1px solid #004AAD;
+  font-weight: 600;
+}
