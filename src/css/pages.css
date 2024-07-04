@@ -1,3 +1,10 @@
+.home {
+    gap: 2rem;
+}
+.place {
+    height: 6rem;
+}
+
 .slider__items {
     overflow-x: scroll;
     scroll-behavior: smooth;
@@ -27,9 +34,8 @@
     margin-left: 0.1rem;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 640px) {
     .page .heading {
         text-align: center;
     }
-    
 }

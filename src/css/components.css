@@ -79,9 +79,18 @@
     .title {
         display: none !important;
     }
+    .moviepage__title {
+        font-size: 2.5rem !important;
+    }
+    .items__items {
+        justify-content: center !important;
+    }
 }
 @media (max-width: 320px) {
     .moviepage__content {
         padding-bottom: 3rem;
+    }
+    .moviepage__title {
+        font-size: 2rem !important;
     }
 }

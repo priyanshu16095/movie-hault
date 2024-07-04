@@ -31,6 +31,7 @@ function App() {
           <Route path='/tv' element={<Tv />} />
           <Route path='/search' element={<Search />} />
         </Routes>
+        <div className="place"></div>
       </Router>
     </div>
   )

@@ -10,7 +10,7 @@ function Movies() {
     const data = useFetchAPI(`${movies_url}&page=${page}`)
 
     return (
-        <div className='page container flex-v gap'>
+        <div className='page flex-v gap'>
             <p className="heading">Movies</p>
             <Items data={data} />
         </div>

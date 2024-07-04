@@ -12,7 +12,7 @@ function Home() {
   const tv_data = useFetchAPI(`${tv_url}`)
 
   return (
-    <div className='home flex-v gap'>
+    <div className='home flex-v'>
       <Slider data={trending__data} heading={'Trending'} to={'trending'} />
       <Slider data={movies_data} heading={'Movies'} to={'movies'} />
       <Slider data={tv_data} heading={'Tv Series'} to={'tv'} />

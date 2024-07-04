@@ -8,7 +8,7 @@ import { tv_url } from '../config/config';
 function Search() {
     const tv_data = useFetchAPI(`${tv_url}`)
     return (
-        <div className='search container flex-v gap'>
+        <div className='search flex-v gap'>
             <p className="heading">Search</p>
 
             <div className="search__header flex-v">
