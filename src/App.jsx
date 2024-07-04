@@ -21,7 +21,6 @@ function App() {
 
   return (
     <div className='app'>
-      <MoviePage />
       <Router>
         <Navigation />
         <Routes>
